@@ -2,12 +2,12 @@ pipeline {
     agent any
         stages {
             stage('One') {
-                step {
+                steps {
                     echo 'Hello world'
                 }
             }
             stage('Two') {
-                step {
+                steps {
                     echo 'This is a declarative pipeline'
                 }
             }
